@@ -14,6 +14,6 @@
 
 
 #define MAX_INPUT_SIZE 1024
-
+#define MAX_COMMAND_LENGTH 1024
 
 #endif
