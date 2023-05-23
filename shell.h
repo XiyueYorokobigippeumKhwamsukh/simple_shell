@@ -13,7 +13,14 @@
 #include <errno.h>
 
 
-#define MAX_INPUT_SIZE 1024
-#define MAX_COMMAND_LENGTH 1024
+#define MAX_INPUT_SIZE 100
+#define MAX_COMMAND_LENGTH 100
+#define MAX_PATH_SIZE 100
+
+/*Prototypes*/
+void displayPrompt(void);
+void execute_command(char *command, char *args[]);
+int splitPath(char *path, char *paths[]);
+void runShellLoop(void);
 
 #endif
