@@ -12,4 +12,8 @@
 #include <fcntl.h>
 #include <errno.h>
 
+
+#define MAX_INPUT_SIZE 1024
+
+
 #endif
