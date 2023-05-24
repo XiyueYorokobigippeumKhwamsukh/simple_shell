@@ -19,7 +19,14 @@
 #define BUFFER_SIZE 1024
 #define MAX_PATHS 10
 #define MAX_ARGS 10
+#define MAX_ALIAS_NAME_LENGTH 50
+#define MAX_ALIAS_COMMAND_LENGTH 100
 
+typedef struct alias
+{
+	char name[MAX_ALIAS_NAME_LENGTH];
+	char command[MAX_ALIAS_COMMAND_LENGTH];
+} Alias;
 
 /*Prototypes*/
 void displayPrompt(void);
