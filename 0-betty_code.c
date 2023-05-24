@@ -27,7 +27,7 @@ int main(void)
 	printf("Enter two numbers: ");
 	scanf("%d %d", &num1, &num2);
 
-	result = calculateSum(Num1, num2);
+	result = calculateSum(num1, num2);
 
 	printf("The sum of num1 + num2 is %d\n", result);
 
