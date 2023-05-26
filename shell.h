@@ -43,5 +43,7 @@ void printEnvironmet(void);
 void handleSetEnvCommand(char **args);
 void handleUnsetEnvCommand(char **args);
 void executeCommandWithPath(char *command, char **args);
-
+void executeAliasCommand(const char *command, char *args[]);
+void executeExternalCommand(const char *command, char *args[]);
+int executeCommands(const char *command, char *args[]);
 #endif
